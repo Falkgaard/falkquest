@@ -1,1 +1,0 @@
-Shitty WIP idle game.
