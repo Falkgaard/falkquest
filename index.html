@@ -6,36 +6,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
 <head>
-    <!-- change this to your project name -->
-    <title>eframe template</title>
-
-    <!-- config for our rust wasm binary. go to https://trunkrs.dev/assets/#rust for more customization -->
-    
+    <title>FalkQuest</title>
 <script type="module" nonce="fI5kKRilyt2KHcSxd8SKsw==">
 import init, * as bindings from '/idle-3c6c49f41c37d13.js';
 const wasm = await init('/idle-3c6c49f41c37d13_bg.wasm');
 
-
 window.wasmBindings = bindings;
-
 
 dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
 
 </script>
     <!-- this is the base url relative to which other urls will be constructed. trunk will insert this from the public-url option -->
     <base href="/" />
-
+    
     <link rel="icon" href="/favicon-f402c8741ce815ec.ico" integrity="sha384&#x2D;jNOAE6jgE03LznIulCTVP6BH4NrTuROFjP9wj8bV1UUMJKtZAvstFpIAP3PDcFpx"/>
-
-
-    
-    
-    
-    
-    
-    
-
-
     <link rel="manifest" href="assets/manifest.json">
     <link rel="apple-touch-icon" href="assets/icon_ios_touch_192.png">
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="white">
